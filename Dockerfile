@@ -1,4 +1,4 @@
-FROM tomcat:8.0.51-jre-alpine
+FROM tomcat:8.0.51-jre8-alpine
 COPY ./target/year2023*.jar /usr/local/tomcat/webapps
 EXPOSE 8080
 USER year2023
