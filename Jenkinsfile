@@ -68,7 +68,7 @@ pipeline {
            }
         }
          stage('Delete the docker images after upload') {
-            step {
+            steps {
                 sh'java--version'
                 sh'java--version'
                  }
