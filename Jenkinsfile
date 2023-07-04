@@ -46,7 +46,9 @@ pipeline {
                   echo "Push Docker Image to DockerHub : In Progress"
                   sh 'whoami'
                   }
+
               }
+
            }
         }
         stage(' Docker Image Push to Amazon ECR') {
